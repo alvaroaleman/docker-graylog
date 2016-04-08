@@ -17,20 +17,20 @@ following table:
 | `root_username`                                  | `admin`                        | Default user login |
 | `root_password_sha2`                             |                                | SHA-2 hash of password for default user. Calculated automatically (see *environment variables*) |
 | `root_email`                                     |                                | Default user email |
-| `root_timezone`                                  | `UTC`                          ||
+| `root_timezone`                                  | `UTC`                          | |
 | `rest_enable_cors`                               | `false`                        | Whether to enable Cross-Origin Resource Sharing |
 | `rest_enable_gzip`                               | `false`                        | Whether to enable gzip compression |
 | `plugin_dir`                                     | `plugin`                       | Directory to store plugins, if you'll need any, most probably you're going to specify this dir as a persistent volume |
-| `elasticsearch_discovery_zen_ping_unicast_hosts` |                                | List of hosts to check for Elasticsearch instances, please see `$GRAYLOG2_ELASTICSEARCH_HOSTS` lower ||
-| `mongodb_uri`                                    | `mongodb://localhost/graylog`  ||
-| `transport_email_enabled`                        | `false`                        ||
-| `transport_email_hostname`                       |                                ||
-| `transport_email_port`                           | `25`                           ||
-| `transport_email_use_auth`                       | `false`                        ||
-| `transport_email_use_tls`                        | `false`                        ||
-| `transport_email_use_ssl`                        | `true`                         ||
-| `transport_email_auth_username`                  |                                ||
-| `transport_email_auth_password`                  |                                ||
+| `elasticsearch_discovery_zen_ping_unicast_hosts` |                                | List of hosts to check for Elasticsearch instances, please see `$GRAYLOG2_ELASTICSEARCH_HOSTS` lower |
+| `mongodb_uri`                                    | `mongodb://localhost/graylog`  | |
+| `transport_email_enabled`                        | `false`                        | |
+| `transport_email_hostname`                       |                                | |
+| `transport_email_port`                           | `25`                           | |
+| `transport_email_use_auth`                       | `false`                        | |
+| `transport_email_use_tls`                        | `false`                        | |
+| `transport_email_use_ssl`                        | `true`                         | |
+| `transport_email_auth_username`                  |                                | |
+| `transport_email_auth_password`                  |                                | |
 
 In addition, this particular image provides extra environment variables:
 
